@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC40790127FF94E600813FB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790027FF94E600813FB0 /* HomeViewController.swift */; };
+		CC40790327FF978900813FB0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790227FF978900813FB0 /* HomeScreen.swift */; };
+		CC40790627FF9F0500813FB0 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */; };
+		CC40790927FFA34B00813FB0 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790827FFA34B00813FB0 /* DataUser.swift */; };
 		CC48B8BA27FE0FD800470F5B /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8B927FE0FD800470F5B /* RegisterScreen.swift */; };
 		CC48B8BC27FE0FF700470F5B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8BB27FE0FF700470F5B /* RegisterViewController.swift */; };
 		CC48B8BE27FE103100470F5B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8BD27FE103100470F5B /* LoginScreen.swift */; };
@@ -22,6 +26,10 @@
 
 /* Begin PBXFileReference section */
 		6C1DEB1EF0EADC467D647C38 /* Pods-LoginRegisterScreen-Course.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginRegisterScreen-Course.release.xcconfig"; path = "Target Support Files/Pods-LoginRegisterScreen-Course/Pods-LoginRegisterScreen-Course.release.xcconfig"; sourceTree = "<group>"; };
+		CC40790027FF94E600813FB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC40790227FF978900813FB0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		CC40790827FFA34B00813FB0 /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
 		CC48B8B927FE0FD800470F5B /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		CC48B8BB27FE0FF700470F5B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CC48B8BD27FE103100470F5B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -65,6 +73,49 @@
 				ED54696074A5A7E47BAA9CCB /* Pods_LoginRegisterScreen_Course.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4078FD27FF94B000813FB0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC40790727FFA33700813FB0 /* Model */,
+				CC40790427FF9EC200813FB0 /* Cell */,
+				CC4078FF27FF94BC00813FB0 /* Controller */,
+				CC4078FE27FF94B600813FB0 /* Screen */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC4078FE27FF94B600813FB0 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC40790227FF978900813FB0 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CC4078FF27FF94BC00813FB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC40790027FF94E600813FB0 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC40790427FF9EC200813FB0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC40790727FFA33700813FB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC40790827FFA34B00813FB0 /* DataUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CC48B8B327FE0F4C00470F5B /* Login */ = {
@@ -138,6 +189,7 @@
 		CC5116D227FE077D00E67A81 /* LoginRegisterScreen-Course */ = {
 			isa = PBXGroup;
 			children = (
+				CC4078FD27FF94B000813FB0 /* Home */,
 				CC9AA99E27FE97FE003F8B50 /* Alert */,
 				CC48B8B427FE0F5600470F5B /* Register */,
 				CC48B8B327FE0F4C00470F5B /* Login */,
@@ -277,7 +329,11 @@
 				CC48B8BA27FE0FD800470F5B /* RegisterScreen.swift in Sources */,
 				CC48B8BC27FE0FF700470F5B /* RegisterViewController.swift in Sources */,
 				CC5116D827FE077D00E67A81 /* LoginViewController.swift in Sources */,
+				CC40790127FF94E600813FB0 /* HomeViewController.swift in Sources */,
+				CC40790927FFA34B00813FB0 /* DataUser.swift in Sources */,
 				CC5116D427FE077D00E67A81 /* AppDelegate.swift in Sources */,
+				CC40790627FF9F0500813FB0 /* UserDetailTableViewCell.swift in Sources */,
+				CC40790327FF978900813FB0 /* HomeScreen.swift in Sources */,
 				CC5116D627FE077D00E67A81 /* SceneDelegate.swift in Sources */,
 				CC48B8BE27FE103100470F5B /* LoginScreen.swift in Sources */,
 				CC9AA9A027FE9816003F8B50 /* Alert.swift in Sources */,
