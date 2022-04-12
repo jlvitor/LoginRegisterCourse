@@ -14,6 +14,7 @@ class HomeScreen: UIView {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.backgroundColor = .white
         tableView.register(UserDetailTableViewCell.self, forCellReuseIdentifier: UserDetailTableViewCell.identifier)
+        tableView.register(SportTableViewCell.self, forCellReuseIdentifier: SportTableViewCell.identifier)
         return tableView
     }()
 
@@ -41,10 +42,7 @@ class HomeScreen: UIView {
     //MARK: Constraints
     func configTableViewConstraints() {
         self.tableView.snp.makeConstraints { make in
-            make.top.equalTo(self.safeAreaLayoutGuide.snp.top)
-            make.leading.equalTo(self.safeAreaLayoutGuide.snp.leading)
-            make.trailing.equalTo(self.safeAreaLayoutGuide.snp.trailing)
-            make.bottom.equalTo(self.safeAreaLayoutGuide.snp.bottom)
+            make.edges.equalTo(self.safeAreaLayoutGuide)
         }
     }
     

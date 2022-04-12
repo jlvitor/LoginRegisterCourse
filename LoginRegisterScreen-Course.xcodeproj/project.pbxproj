@@ -11,6 +11,9 @@
 		CC40790327FF978900813FB0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790227FF978900813FB0 /* HomeScreen.swift */; };
 		CC40790627FF9F0500813FB0 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */; };
 		CC40790927FFA34B00813FB0 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40790827FFA34B00813FB0 /* DataUser.swift */; };
+		CC4777C228051FCE0089A959 /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4777C128051FCE0089A959 /* SportCollectionViewCell.swift */; };
+		CC4777C4280520210089A959 /* SportCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4777C3280520210089A959 /* SportCollectionViewCellScreen.swift */; };
+		CC4777C728052CE40089A959 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4777C628052CE40089A959 /* Sport.swift */; };
 		CC48B8BA27FE0FD800470F5B /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8B927FE0FD800470F5B /* RegisterScreen.swift */; };
 		CC48B8BC27FE0FF700470F5B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8BB27FE0FF700470F5B /* RegisterViewController.swift */; };
 		CC48B8BE27FE103100470F5B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B8BD27FE103100470F5B /* LoginScreen.swift */; };
@@ -19,6 +22,9 @@
 		CC5116D827FE077D00E67A81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5116D727FE077D00E67A81 /* LoginViewController.swift */; };
 		CC5116DD27FE077E00E67A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5116DC27FE077E00E67A81 /* Assets.xcassets */; };
 		CC5116E027FE077E00E67A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5116DE27FE077E00E67A81 /* LaunchScreen.storyboard */; };
+		CC5FF25328007DD900A8BA7B /* UserDetailTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5FF25228007DD900A8BA7B /* UserDetailTableViewCellScreen.swift */; };
+		CC5FF2572800B8DD00A8BA7B /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5FF2562800B8DD00A8BA7B /* SportTableViewCell.swift */; };
+		CC5FF25A2800BA8200A8BA7B /* SportTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5FF2592800BA8200A8BA7B /* SportTableViewCellScreen.swift */; };
 		CC9AA9A027FE9816003F8B50 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9AA99F27FE9816003F8B50 /* Alert.swift */; };
 		CCB10D2C27FF44450070E61C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB10D2B27FF44450070E61C /* GoogleService-Info.plist */; };
 		EAA35E6DF22812A58EFD9FBF /* Pods_LoginRegisterScreen_Course.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED54696074A5A7E47BAA9CCB /* Pods_LoginRegisterScreen_Course.framework */; };
@@ -30,6 +36,9 @@
 		CC40790227FF978900813FB0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
 		CC40790827FFA34B00813FB0 /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
+		CC4777C128051FCE0089A959 /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC4777C3280520210089A959 /* SportCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCellScreen.swift; sourceTree = "<group>"; };
+		CC4777C628052CE40089A959 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		CC48B8B927FE0FD800470F5B /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		CC48B8BB27FE0FF700470F5B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CC48B8BD27FE103100470F5B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -40,6 +49,9 @@
 		CC5116DC27FE077E00E67A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC5116DF27FE077E00E67A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC5116E127FE077E00E67A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5FF25228007DD900A8BA7B /* UserDetailTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCellScreen.swift; sourceTree = "<group>"; };
+		CC5FF2562800B8DD00A8BA7B /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		CC5FF2592800BA8200A8BA7B /* SportTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCellScreen.swift; sourceTree = "<group>"; };
 		CC9AA99F27FE9816003F8B50 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CCB10D2B27FF44450070E61C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E29750F4AF6623E10DF41B22 /* Pods-LoginRegisterScreen-Course.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginRegisterScreen-Course.debug.xcconfig"; path = "Target Support Files/Pods-LoginRegisterScreen-Course/Pods-LoginRegisterScreen-Course.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +117,8 @@
 		CC40790427FF9EC200813FB0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */,
+				CC5FF2552800B8B600A8BA7B /* SportTableViewCell */,
+				CC5FF2542800B64B00A8BA7B /* UserDetailTableViewCell */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -114,8 +127,26 @@
 			isa = PBXGroup;
 			children = (
 				CC40790827FFA34B00813FB0 /* DataUser.swift */,
+				CC4777C628052CE40089A959 /* Sport.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CC4777C028051F750089A959 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC4777C128051FCE0089A959 /* SportCollectionViewCell.swift */,
+				CC4777C52805202D0089A959 /* CollectionCustomView */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CC4777C52805202D0089A959 /* CollectionCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CC4777C3280520210089A959 /* SportCollectionViewCellScreen.swift */,
+			);
+			path = CollectionCustomView;
 			sourceTree = "<group>";
 		};
 		CC48B8B327FE0F4C00470F5B /* Login */ = {
@@ -201,6 +232,41 @@
 				CCB10D2B27FF44450070E61C /* GoogleService-Info.plist */,
 			);
 			path = "LoginRegisterScreen-Course";
+			sourceTree = "<group>";
+		};
+		CC5FF25128007DB200A8BA7B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CC5FF25228007DD900A8BA7B /* UserDetailTableViewCellScreen.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CC5FF2542800B64B00A8BA7B /* UserDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC5FF25128007DB200A8BA7B /* CustomView */,
+				CC40790527FF9F0500813FB0 /* UserDetailTableViewCell.swift */,
+			);
+			path = UserDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		CC5FF2552800B8B600A8BA7B /* SportTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC4777C028051F750089A959 /* CollectionViewCell */,
+				CC5FF2582800BA0C00A8BA7B /* CustomView */,
+				CC5FF2562800B8DD00A8BA7B /* SportTableViewCell.swift */,
+			);
+			path = SportTableViewCell;
+			sourceTree = "<group>";
+		};
+		CC5FF2582800BA0C00A8BA7B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CC5FF2592800BA8200A8BA7B /* SportTableViewCellScreen.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		CC9AA99E27FE97FE003F8B50 /* Alert */ = {
@@ -329,8 +395,14 @@
 				CC48B8BA27FE0FD800470F5B /* RegisterScreen.swift in Sources */,
 				CC48B8BC27FE0FF700470F5B /* RegisterViewController.swift in Sources */,
 				CC5116D827FE077D00E67A81 /* LoginViewController.swift in Sources */,
+				CC4777C228051FCE0089A959 /* SportCollectionViewCell.swift in Sources */,
 				CC40790127FF94E600813FB0 /* HomeViewController.swift in Sources */,
+				CC4777C728052CE40089A959 /* Sport.swift in Sources */,
+				CC4777C4280520210089A959 /* SportCollectionViewCellScreen.swift in Sources */,
+				CC5FF25328007DD900A8BA7B /* UserDetailTableViewCellScreen.swift in Sources */,
 				CC40790927FFA34B00813FB0 /* DataUser.swift in Sources */,
+				CC5FF25A2800BA8200A8BA7B /* SportTableViewCellScreen.swift in Sources */,
+				CC5FF2572800B8DD00A8BA7B /* SportTableViewCell.swift in Sources */,
 				CC5116D427FE077D00E67A81 /* AppDelegate.swift in Sources */,
 				CC40790627FF9F0500813FB0 /* UserDetailTableViewCell.swift in Sources */,
 				CC40790327FF978900813FB0 /* HomeScreen.swift in Sources */,
